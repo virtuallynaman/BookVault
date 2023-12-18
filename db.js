@@ -14,5 +14,5 @@ module.exports = {
         return cb(err);
       });
   },
-  getDb: () => dbConnection
+  getDb: () => dbConnection,
 };
